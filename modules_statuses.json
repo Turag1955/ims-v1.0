@@ -1,0 +1,11 @@
+{
+    "Base": true,
+    "Category": true,
+    "System": true,
+    "Controller": true,
+    "BrandController": true,
+    "Supplier": true,
+    "Customer": true,
+    "Product": true,
+    "Purchase": true
+}

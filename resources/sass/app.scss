@@ -1,0 +1,189 @@
+$fa-font-path:'../webfonts';
+
+@import '~flag-icon-css/css/flag-icon.min.css';
+@import './../assets/css/gaxon-icon/style.css';
+@import '../assets/css/perfect-scrollbar.css';
+@import './../assets/css/lite-style-1.min.css';
+@import '~@fortawesome/fontawesome-free/css/all.css';
+@import '~bootstrap-select/dist/css/bootstrap-select.min.css';
+@import '~dropify/dist/css/dropify.min.css';
+@import '~nestable2/jquery.nestable.css';
+
+//custome css
+
+.select2-container {
+    width: 100% !important;
+}
+
+.close {
+    opacity: 100% !important;
+    color: #000 !important;
+    font-size: 30px !important;
+}
+
+.table th {
+    color: white !important;
+}
+
+.table th,
+.table td {
+    padding: 1rem !important;
+}
+
+label:first-child::after {
+    content: '*';
+    color: #e65757;
+}
+
+// .dt-card {
+//     height: 100vh !important;
+// }
+
+#dataTable.form-check-input:checked.form-check-label::before {
+    color: #fff !important;
+    border-color: #ec3333 !important;
+    background-color: #ee7474 !important;
+    box-shadow: none !important;
+}
+
+div.dt-buttons.buttons-collection.dropdown-toggle {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    flex-direction: column !important;
+    background-color: rgb(231, 109, 109) !important;
+}
+
+.dt-button.dropdown-item.button-columnVisibility.active {
+    color: white !important;
+}
+
+.dt-button.dropdown-item.active {
+    background-color: rgb(240, 140, 140) !important;
+}
+
+.dt-button.dropdown-item.button-columnVisibility {
+    color: black !important;
+    padding: 3px 10px !important;
+}
+
+.dataTable_processing {
+    position: absolute;
+    top: 100px !important;
+    left: 50% !important;
+}
+
+.mr10 {
+    margin-right: 10px;
+}
+
+.ml10 {
+    margin-left: 10px;
+}
+
+.dt-buttons.btn-secondary {
+    margin-left: 5px !important;
+    margin-bottom: 5px !important;
+}
+
+.dt-buttons.btn-secondary:last-child {
+    margin-right: 0px !important;
+}
+
+.save_btn {
+    width: 80px !important;
+}
+
+.kt-spinner {
+    position: relative;
+}
+
+.kt-spinner::before {
+    content: '';
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    top: 50%;
+    left: 2px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.kt-spinner::before {
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+}
+
+.kt-spinner::before {
+    -webkit-animation: kt-spinner .5s linear infinite;
+    animation: kt-spinner .5s linear infinite;
+}
+
+.kt-spinner.kt-spinner--light::before {
+    border: 2px solid white;
+    border-right: 2px solid transparent;
+}
+
+@-webkit-keyframes kt-spinner {
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes kt-spinner {
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+.swal2-popup.swal2-toast{
+    padding: 1rem !important;
+}
+.swal2-popup.swal2-toast.swal2-title {
+    font-size: 1.2rem !important;
+    flex-wrap: 1;
+    justify-content: flex-start;
+    margin: 0.1rem !important;
+    font-size: 1.2rem !important;
+}
+.btn-light,.btn-light:hover{
+    color: #545454;
+    background-color: #fff;
+    border-color: #ced4da;
+}
+.dropdown-item{
+    cursor: pointer !important;
+}
+.dropdown-item.active,.dropdown-item:active{
+    color: #fff !important;
+    background-color: #fadc16 !important;
+}
+
+//menu builder
+.menu-builder .dd{
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    max-width: inherit;
+    font-size: 13px;
+    line-height: 20px;
+}
+.menu-builder .dd .item-action .edit{
+    margin-right: 5px;
+}
+.menu-builder .dd-handle{
+    display: block;
+    height: 50px;
+    margin: 5px 0;
+    padding: 14px 25px;
+    color: #333;
+    text-decoration: none;
+    font-weight: 700;
+    border: 1px solid #ccc;
+    background: #fafafa;
+    border-radius: 3px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
